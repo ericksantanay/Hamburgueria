@@ -11,7 +11,6 @@
 
 :root{
     /*Fontes*/
-    --font-h1: "Oswald", sans-serif;
     --font-depoimento:"Roboto", sans-serif;
     --font-nome-dos-lanches: "Poppins", sans-serif;
     --font-menu: "League Spartan", sans-serif; 
@@ -20,12 +19,17 @@
     --cor2-vermelho:#DB1600;
     --cor-laranja:#DB6402;
     --cor-amarelo:#DBA100;
-    --cor-cinza:#d1cece;
+    --cor-quase-branco:#e9e9e9;
+    --cor-cinza:#dbdbdb;
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+
+body, html{
+    background-color: var(--cor-quase-branco);
 }
 
 header{
@@ -36,10 +40,51 @@ header{
     flex-direction: column;
 }
 
+header #h1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header .container{
+    background-color: var(--cor-cinza);
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
 header .pesquisa{
+    width: 360px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0px 40px;
+}
+
+header .pesquisa input{
+    padding: 5px;
+    width: 240px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    margin-left: 15px;
 }
 
 
+header .pesquisa button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+header .pesquisa button > span{
+    color: black;
+    padding: 10px;
+}
 
 
 
