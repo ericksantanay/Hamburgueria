@@ -29,9 +29,11 @@
 }
 
 header{
+    padding: 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 header .pesquisa{
