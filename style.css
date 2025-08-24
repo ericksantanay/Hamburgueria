@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -12,6 +12,7 @@
 /*Root*/
 :root{
     /*Fontes*/
+    --font-btn: "Jost", sans-serif;
     --font-depoimento:"Roboto", sans-serif;
     --font-nome-dos-lanches: "Poppins", sans-serif;
     --font-menu: "League Spartan", sans-serif; 
@@ -118,13 +119,18 @@ main #txt p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 main #txt a{
     color: white;
     background-color: var(--cor-laranja);
-    font-family: var();
+    font-family: var(--font-btn);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 
