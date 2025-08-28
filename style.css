@@ -185,6 +185,7 @@ main #hamburguers #conteudo-h .hamburguer p{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .lanche #lanche-recomendado #recomendo-1{
@@ -192,15 +193,14 @@ main #hamburguers #conteudo-h .hamburguer p{
 }
 
 .lanche > #lanche-recomendado > .recomendo > .p-txt{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
     background-color: #DB1600;
-    width: 100px;
+    width: 150px;
 }
 
 .lanche #lanche-recomendado #recomendo-1 p{
-    
+    font-size: 1.4rem;
+    font-family: var(--font-nome-dos-lanches);
 }
 
 
