@@ -162,8 +162,33 @@ main #hamburguers #conteudo-h .hamburguer p{
 }
 
 .lanche{
+    width: 100%;
+    height: auto;
     background-color: aliceblue;
 }
+
+.lanche #lanche-recomendado{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Typcal device Breakpoints
