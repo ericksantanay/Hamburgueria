@@ -168,7 +168,6 @@ main #hamburguers #conteudo-h .hamburguer p{
 }
 
 .lanche #lanche-recomendado{
-    text-align: center;
     padding: 20px;
 }
 
@@ -185,15 +184,22 @@ main #hamburguers #conteudo-h .hamburguer p{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 .lanche #lanche-recomendado #recomendo-1{
     background-image: url(image/foto-h-1.jpg);
 }
 
-.lanche #lanche-recomendado #recomendo-1 p{
+.lanche > #lanche-recomendado > .recomendo > .p-txt{
+    margin: auto;
+    text-align: center; 
     background-color: #DB1600;
-    width: 200px;
+    width: 100px;
+}
+
+.lanche #lanche-recomendado #recomendo-1 p{
+    
 }
 
 
