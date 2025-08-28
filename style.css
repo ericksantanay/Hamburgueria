@@ -169,11 +169,15 @@ main #hamburguers #conteudo-h .hamburguer p{
 
 .lanche #lanche-recomendado{
     text-align: center;
+   padding: 20px;
 }
 
 .lanche #lanche-recomendado #txt h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 .lanche #lanche-recomendado .recomendo{
