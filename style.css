@@ -171,7 +171,9 @@ main #hamburguers #conteudo-h .hamburguer p{
     text-align: center;
 }
 
-
+.lanche #lanche-recomendado .recomendo-1{
+    background-image: url(image/foto-h-1.jpg);
+}
 
 
 
