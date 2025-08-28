@@ -205,9 +205,14 @@ main #hamburguers #conteudo-h .hamburguer p{
     font-family: var(--font-nome-dos-lanches);
 }
 
+.lanche #lanche-recomendado #recomendo-2{
+    background-image: url(image/foto-h-3.jpg);
+}
 
-
-
+.lanche #lanche-recomendado #recomendo-2 p{
+    font-size: 1.4rem;
+    font-family: var(--font-nome-dos-lanches);
+}
 
 
 
