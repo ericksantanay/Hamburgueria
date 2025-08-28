@@ -156,9 +156,14 @@ main #hamburguers #conteudo-h .hamburguer p{
     margin-bottom: 20px;
     text-align: center;
     font-family: var(--font-nome-dos-lanches);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-laranja);
 }
 
-
+.lanche{
+    background-color: #DB1600;
+}
 
 
 /*Typcal device Breakpoints
