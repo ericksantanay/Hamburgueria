@@ -164,12 +164,12 @@ main #hamburguers #conteudo-h .hamburguer p{
 .lanche{
     width: 100%;
     height: auto;
-    background-color: aliceblue;
+    background-color: var(--cor-cinza);
 }
 
 .lanche #lanche-recomendado{
     text-align: center;
-   padding: 20px;
+    padding: 20px;
 }
 
 .lanche #lanche-recomendado #txt h1{
