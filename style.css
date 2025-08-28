@@ -171,7 +171,8 @@ main #hamburguers #conteudo-h .hamburguer p{
     text-align: center;
 }
 
-.lanche #lanche-recomendado #txt{
+.lanche #lanche-recomendado #txt h1{
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
