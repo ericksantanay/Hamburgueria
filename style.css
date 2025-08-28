@@ -152,7 +152,11 @@ main #hamburguers #conteudo-h .hamburguer img{
     width: 240px;
 }
 
-
+main #hamburguers #conteudo-h .hamburguer p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--font-nome-dos-lanches);
+}
 
 
 
