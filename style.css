@@ -134,7 +134,7 @@ main #txt a{
 }
 
 /*Conteudo 2 hamburguers*/
-
+/*------------------------*/
 main #hamburguers{
     display: flex;
     justify-content: center;
@@ -157,7 +157,7 @@ main #hamburguers #conteudo-h .hamburguer p{
     font-weight: 600;
     color: var(--cor-laranja);
 }
-
+/*Conteudo 3 lanche*/
 .lanche{
     width: 100%;
     height: auto;
@@ -232,7 +232,7 @@ main #hamburguers #conteudo-h .hamburguer p{
     font-size: 1.4rem;
     font-family: var(--font-nome-dos-lanches);
 }
-
+/*Nosso endereço*/
 main .endereco{
     margin-top: 30px;
     background-color: var(--cor-cinza);
@@ -250,6 +250,7 @@ main .endereco #mapa{
     padding: 40px;
 }
 
+/*Depoimentos*/
 main #comentario{
     margin-top: 30px;
 }
