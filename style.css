@@ -91,10 +91,6 @@ header .pesquisa button > span{
 /*Main/ Corpo*/
 
 main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     padding: 10px;
 }
 
@@ -259,7 +255,10 @@ main #comentario{
 }
 
 main #comentario .avaliacao {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main #comentario .avaliacao .depoimento{
