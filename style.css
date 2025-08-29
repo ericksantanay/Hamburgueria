@@ -261,11 +261,30 @@ main #comentario .avaliacao {
 }
 
 main #comentario .avaliacao .depoimento{
-    background-color: #402313;    
+    background-color: #cfc1b9;    
+    border-right: 2px solid rgba(0, 0, 255, 0.516) ;
 }
 
+main #comentario .avaliacao .depoimento span{
+    padding: 10px;
+}
 
+main #comentario .avaliacao .depoimento p{
+    padding: 10px;
+    line-height: 27px;
+}
 
+main #comentario .avaliacao .depoimento img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+main #comentario .avaliacao .depoimento .nome{
+    margin-left: 25px;
+}
 /*Typcal device Breakpoints
 -----------------------------
 
