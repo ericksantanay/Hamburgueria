@@ -258,6 +258,15 @@ main #comentario{
     margin-top: 30px;
 }
 
+main #comentario #depoimento-txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #cfc1b9;
+}
+
 main #comentario .avaliacao {
     display: flex;
 }
