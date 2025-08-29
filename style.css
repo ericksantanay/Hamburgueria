@@ -196,8 +196,10 @@ main #hamburguers #conteudo-h .hamburguer p{
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: #DB1600;
-    width: 150px;
+    transform: translate(-50%, -50%);
+    background-color: #db640269;
+    width: 180px;
+    height: 100px;
 }
 
 .lanche #lanche-recomendado #recomendo-1 p{
