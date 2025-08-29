@@ -96,6 +96,7 @@ main{
     justify-content: center;
     flex-direction: column;
     padding: 20px;
+     box-shadow: rgba(0, 0, 0, 0.129) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 /*Conteudo 1 background-1*/
@@ -142,7 +143,6 @@ main #hamburguers{
     display: flex;
     justify-content: center;
     align-items: center;
-     box-shadow: rgba(0, 0, 0, 0.129) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 main #hamburguers #conteudo-h{
@@ -154,7 +154,7 @@ main #hamburguers #conteudo-h .hamburguer img{
 }
 
 main #hamburguers #conteudo-h .hamburguer p{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
     font-family: var(--font-nome-dos-lanches);
     font-size: 1.5rem;
@@ -244,7 +244,10 @@ main .endereco{
 }
 
 main .endereco #title{
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 20px ;
 }
 
 
