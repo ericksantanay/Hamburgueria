@@ -238,7 +238,9 @@ main #hamburguers #conteudo-h .hamburguer p{
     font-family: var(--font-nome-dos-lanches);
 }
 
-
+main .endereco{
+    padding: 10px;
+}
 
 
 /*Typcal device Breakpoints
