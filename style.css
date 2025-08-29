@@ -272,6 +272,7 @@ main #comentario .avaliacao .depoimento span{
 main #comentario .avaliacao .depoimento p{
     padding: 10px;
     line-height: 27px;
+    font-family: var(--font-depoimento);
 }
 
 main #comentario .avaliacao .depoimento img{
@@ -284,6 +285,17 @@ main #comentario .avaliacao .depoimento img{
 
 main #comentario .avaliacao .depoimento .nome{
     margin-left: 25px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: var(--cor-amarelo);
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: var(--font-nome-dos-lanches);
 }
 /*Typcal device Breakpoints
 -----------------------------
