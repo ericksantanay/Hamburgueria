@@ -99,7 +99,6 @@ main #background-1{
     background-image: url(image/foto-de-fundo.jpg);
     width: 97vw;
     height: 200px;
-    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,12 +106,14 @@ main #background-1{
     margin-bottom: 20px;
 }
 
-main #txt{
+main #background-1 #txt{
     padding: 10px;
     width: 200px;
     height: 90px;
-    margin-top: 90px;
-    margin-left: 10px;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    transform: translate(-50%, 50%);
 }
 
 main #txt p{
@@ -142,7 +143,7 @@ main #hamburguers{
 }
 
 main #hamburguers #conteudo-h{
-    width: 200px;
+    width: 230px;
 }
 
 main #hamburguers #conteudo-h .hamburguer img{
@@ -168,10 +169,11 @@ main #hamburguers #conteudo-h .hamburguer p{
     padding: 20px;
 }
 
-.lanche #lanche-recomendado #txt h1{
+.lanche #lanche-recomendado #txt-lanche h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
     text-align: center;
+    padding: 20px;
 }
 
 .lanche #lanche-recomendado .recomendo{
@@ -295,6 +297,7 @@ footer{
 footer p{
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 10px;
     font-family: var(--font-nome-dos-lanches);
 }
 /*Typcal device Breakpoints
