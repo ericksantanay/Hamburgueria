@@ -239,7 +239,8 @@ main #hamburguers #conteudo-h .hamburguer p{
 }
 
 main .endereco{
-    padding: 10px;
+    margin-top: 30px;
+    background-color: var(--cor-cinza);
 }
 
 
