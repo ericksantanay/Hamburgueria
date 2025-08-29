@@ -95,8 +95,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
-     box-shadow: rgba(0, 0, 0, 0.129) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    padding: 10px;
 }
 
 /*Conteudo 1 background-1*/
@@ -104,6 +103,7 @@ main #background-1{
     background-image: url(image/foto-de-fundo.jpg);
     width: 100vw;
     height: 200px;
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +198,6 @@ main #hamburguers #conteudo-h .hamburguer p{
     text-align: center;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.129) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    background-color: #db64020e;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -255,7 +254,9 @@ main .endereco #mapa{
     padding: 40px;
 }
 
-
+main #comentario{
+    margin-top: 30px;
+}
 
 
 
