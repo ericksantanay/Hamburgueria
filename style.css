@@ -232,7 +232,7 @@ main #hamburguers #conteudo-h .hamburguer p{
     font-size: 1.4rem;
     font-family: var(--font-nome-dos-lanches);
 }
-/*Nosso endereço*/
+/*Conteudo 4 Nosso endereço*/
 main .endereco{
     margin-top: 30px;
     background-color: var(--cor-cinza);
@@ -247,7 +247,7 @@ main .endereco #title{
 }
 
 main .endereco #mapa{
-    padding: 40px;
+    padding: 0px;
 }
 
 /*Depoimentos*/
