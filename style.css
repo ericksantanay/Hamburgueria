@@ -97,7 +97,7 @@ main{
 /*Conteudo 1 background-1*/
 main #background-1{
     background-image: url(image/foto-de-fundo.jpg);
-    width: 100vw;
+    width: 97vw;
     height: 200px;
     
     background-position: center center;
