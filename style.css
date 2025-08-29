@@ -193,13 +193,16 @@ main #hamburguers #conteudo-h .hamburguer p{
 }
 
 .lanche > #lanche-recomendado > .recomendo > .p-txt{
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: #db640269;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #db640269;
-    width: 180px;
-    height: 100px;
+    
 }
 
 .lanche #lanche-recomendado #recomendo-1 p{
