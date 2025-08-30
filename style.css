@@ -46,6 +46,7 @@ header #h1 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     margin-bottom: 20px;
+    display: block;
 }
 
 header .container{
@@ -54,6 +55,7 @@ header .container{
     border: none;
     outline: none;
     font-size: 18px;
+    display: block;
 }
 
 header .pesquisa{
@@ -312,9 +314,20 @@ footer p{
 
 /*Media Query*/
 
+/*Media Query Para Celulares*/
+/*----------------------------*/
+@media screen and (max-width:768px){
+    header #menu{
+        display: none;
+    }
+}
+
 /*Tablet*/
 /*---------*/
 @media screen and (min-width:768px) and (max-width:992px){
+    header #menu{
+        display: none;
+    }
     main #background-1 #txt{
         position: absolute;
         top:24%;
@@ -328,17 +341,17 @@ footer p{
     }
 }
 
-@media screen and (min-width:992px){
-    
+/*Media Query Para pc*/
+@media screen and (min-width:992px) and (max-width:1200px){
+    header #menu{
+        display: block;
+        
+    }
+
+    header #container .pesquisa > input{
+        display: none;
+    }
 }
-
-
-
-
-
-
-
-
 
 
 /*Typcal device Breakpoints
