@@ -345,6 +345,10 @@ footer p{
         transform: translate(-50%, -15%);
     }
 
+    main #background-1 #txt{
+
+    }
+
     main .endereco #mapa iframe{
         width: 100%;
         height: 400px;
@@ -386,6 +390,33 @@ footer p{
 
 @media screen and (min-width:1200px){
     
+    header #menu{
+    position: absolute;
+    top: 7%;
+    left: 3%;  
+    transform: translate(-8%, -3%);
+    padding: 5px ;
+}
+
+    header > .container{
+        display: none;
+    }
+    
+    main #background-1{
+        background-image: url(image/foto-de-fundo.jpg);
+        height: 100vh;
+    }
+
+    main #background-1 #txt{
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        transform: translate(-50%, -17%);
+    }
+
+    main #background-1 #txt h2{
+        font-size: 3.4rem;
+    }
 }
 
 
