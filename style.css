@@ -363,7 +363,8 @@ footer p{
     main #background-1 #txt{
         position: absolute;
         top: 70%;
-        right: 80%;
+        left: 17%;
+        transform: ;
     }
 }
 
