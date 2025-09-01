@@ -362,13 +362,13 @@ footer p{
 
     main #background-1 #txt{
         position: absolute;
-        top: 70%;
+        top: 50%;
         left: 17%;
-        transform: translate(-70%, -17%);
+        transform: translate(-50%, -17%);
     }
 
     main #background-1 #txt h2{
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
 }
 
