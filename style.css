@@ -344,8 +344,8 @@ footer p{
 /*Media Query Para pc*/
 @media screen and (min-width:992px) and (max-width:1200px){
     header #menu{
-        display: block;
-       text-align: left;  
+    display: block;
+       
     }
 
     header > .container{
