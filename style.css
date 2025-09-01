@@ -255,6 +255,10 @@ main .endereco #mapa{
     padding: 0px;
 }
 
+main .endereco #mapa iframe{
+    width: 100%;
+}
+
 /*Depoimentos*/
 main #comentario{
     margin-top: 30px;
