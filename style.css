@@ -364,7 +364,7 @@ footer p{
         position: absolute;
         top: 70%;
         left: 17%;
-        transform: ;
+        transform: translate(-70%, -17%);
     }
 }
 
