@@ -345,10 +345,11 @@ footer p{
 @media screen and (min-width:992px) and (max-width:1200px){
     header #menu{
     position: absolute;
-    top: 8%;
+    top: 7%;
     left: 3%;  
     transform: translate(-8%, -3%);
-    }
+    padding: 5px ;
+}
 
     header > .container{
         display: none;
