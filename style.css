@@ -359,6 +359,12 @@ footer p{
         background-image: url(image/foto-de-fundo.jpg);
         height: 100vh;
     }
+
+    main #background-1 #txt{
+        position: absolute;
+        top: 70%;
+        right: 80%;
+    }
 }
 
 
