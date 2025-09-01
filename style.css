@@ -352,7 +352,10 @@ footer p{
         display: none;
     }
     
-    main #background-1
+    main #background-1{
+        background-image: url(image/foto-de-fundo.jpg);
+        height: 100%;
+    }
 }
 
 
