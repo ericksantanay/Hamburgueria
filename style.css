@@ -382,17 +382,7 @@ footer p{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*Media Query para Tv*/
 @media screen and (min-width:1200px){
     
     header #menu{
