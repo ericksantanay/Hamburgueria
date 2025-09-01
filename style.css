@@ -345,10 +345,10 @@ footer p{
 @media screen and (min-width:992px) and (max-width:1200px){
     header #menu{
         display: block;
-        
+       text-align: left;  
     }
 
-    header #container .pesquisa > input{
+    header > .container{
         display: none;
     }
 }
