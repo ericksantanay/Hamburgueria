@@ -30,7 +30,7 @@
             <!--Backgorund-->
             <article id="txt">
                 <h2>O melhor lanche</h2>
-                <a id="link" href="#" mousemove="mover">Pedir Agora</a>
+                <a id="mover" href="#">Pedir Agora</a>
             </article>
         </section>
 
@@ -148,9 +148,19 @@
     <script>
         var i = window.document.getElementById ('mover')
 
-        function mover(){
-            
+        i.addEventListener('mouseenter', entrar)
+        i.addEventListener('mouseout', sair)
+
+
+        function entrar(){
+            i.style.background = ('blue')
         }
+
+        function sair(){
+            i.style.background = ('orange color')
+        }
+
+
     </script>
 </body>
 </html>
