@@ -378,8 +378,12 @@ footer p{
         font-size: 3.4rem;
     }
 
+    main #hamburguers #conteudo-h .hamburguer{
+      width: 100%;
+    }
+
     main #hamburguers #conteudo-h .hamburguer img{
-      width: ;
+        width: 600px;
     }
 }
 
