@@ -359,9 +359,9 @@ footer p{
 @media screen and (min-width:992px){
 
     header .container .pesquisa span{
-
+     cursor: pointer;
     }
-    
+
     main #background-1{
         background-image: url(image/foto-de-fundo.jpg);
         height: 100vh;
