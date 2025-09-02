@@ -355,7 +355,7 @@ footer p{
     }
 }
 
-/*Media Query Para pc*/
+/*Media Query Para pc/tv*/
 @media screen and (min-width:992px){
 
     header .container .pesquisa span{
@@ -389,5 +389,7 @@ footer p{
     main .lanche #lanche-recomendado .recomendo{
         height: 100vh;
     }
+
+   
 }
 
