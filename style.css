@@ -385,5 +385,9 @@ footer p{
     main #hamburguers #conteudo-h .hamburguer img{
         width: 600px;
     }
+
+    main .lanche #lanche-recomendado .recomendo{
+        height: 100vh;
+    }
 }
 
