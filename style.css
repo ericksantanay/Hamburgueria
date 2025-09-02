@@ -357,10 +357,7 @@ footer p{
 
 /*Media Query Para pc*/
 @media screen and (min-width:992px){
-    header #menu{     
-    cursor: pointer;
-    display: block;
-}
+
 
     header > .container{
     }
